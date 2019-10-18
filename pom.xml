@@ -20,7 +20,7 @@
     <java.version>1.8</java.version>
 
     <!-- Versions on dependencies -->
-    <opensaml.version>3.4.3</opensaml.version>
+    <opensaml.version>3.4.5</opensaml.version>
 
   </properties>
 
@@ -44,7 +44,7 @@
       <dependency>
         <groupId>se.swedenconnect.opensaml</groupId>
         <artifactId>opensaml-bom</artifactId>
-        <version>${opensaml.version}.R3</version>
+        <version>${opensaml.version}.R1-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
